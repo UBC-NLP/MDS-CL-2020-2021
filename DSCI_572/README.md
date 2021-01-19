@@ -50,23 +50,24 @@ This is an *assignment-based course*. You'll be evaluated as follows:
 
 | Name           | Time    | Location |
 | :----------------: | :----------: | :--------: |
-| Muhammad Abdul Mageed |    Tues. 12:00-14:00 PT       | Zoom        |
+| Muhammad Abdul Mageed |    Wed. 12:00-14:00 PT       | Zoom        |
 | Peter Sullivan |   Fri. 11:00-12:00 PT |  Slack        |
 | Ganesh Jawahar | Thurs. 18:00-19:00 PT | Slack |
 
 ---
 # Weekly Content
 
+
 | Lecture | Topic   | Readings                 | Lecture |  Tutorials |  Assignment |
 |------   | ------- |--------------------------| -------- | -------- | -------- |
-| 1   | PyTorch I | [PyTorch_Tutorials](https://pytorch.org/tutorials/) | TBA  | ```PyTorch I``` [[Notebook](tutorials/week1/pytorch_tutorial.ipynb)]; [[video](https://youtu.be/X2ljS5aXnq0)] | ```HW01```  [[video](https://www.youtube.com/watch?v=Zuga-YxJJ2Y&feature=youtu.be)] |
-| 2   | PyTorch II |    |  TBA  | ```TorchText``` [[Notebook](tutorials/week1/torchtext_tutorial.ipynb)]; [[video](https://youtu.be/umNsmMrm0bI)]  | -------- |
-| 3   |  Feedforward Neural Networks & Recurrent Neural Networks I  |  [GBC-CH06](http://www.deeplearningbook.org/contents/mlp.html); [GBC-CH10](http://www.deeplearningbook.org/contents/rnn.html)  |  TBA  | -------- | ```HW02``` [[L2T2](https://youtu.be/l_UXDv341WY)]; [[L2Q1](https://youtu.be/UMAkUTSOVS8)];[[L2Q2](https://youtu.be/CKpX9Pm2KV4)];[[L2Q3](https://youtu.be/Ds9kKqHfL6E)];[[L2Q4](https://youtu.be/Mlfr3yAfDro)] |
-| 4   |  Recurrent Neural Networks II  |  [GBC-CH10](http://www.deeplearningbook.org/contents/rnn.html)  |  TBA  | -------- | -------- |
+| 1   | PyTorch I | [PyTorch_Tutorials](https://pytorch.org/tutorials/) | [Lectr_1](lectures/Lecture-1-DSCI572-dl_intro.pdf); [video](https://ubc.zoom.us/rec/share/mOuWg7xdfUNqsKAwYjX2PQpgjLof8c30Y1bFoUTLpbU5scQOB8rQl7Pdb40EiUgh.h_mut8iVtOn5ltZW) ```pwd:``` N&hK@2z3   | ```PyTorch I``` [[Notebook](tutorials/week1/pytorch_tutorial.ipynb)]; [[video](https://youtu.be/X2ljS5aXnq0)] | ```HW01```  [[video](https://www.youtube.com/watch?v=Zuga-YxJJ2Y&feature=youtu.be)] |
+| 2   | PyTorch II |  [GBC-CH06](https://www.deeplearningbook.org/contents/mlp.html) (optional)|  [Lectr_2](lectures/Lecture-2-DSCI572-ffw.pdf);[to_add_video](xxx) ```pwd:```  | ```TorchText``` [[Notebook](tutorials/week1/torchtext_tutorial.ipynb)]; [[video](https://youtu.be/umNsmMrm0bI)]  | NA |
+| 3   |  Feedforward Neural Networks & Recurrent Neural Networks I  |  [GBC-CH06](http://www.deeplearningbook.org/contents/mlp.html); [GBC-CH10](http://www.deeplearningbook.org/contents/rnn.html)  | [Lectr_3](lectures/Lecture-3-DSCI572-rnn.pdf);[to_add_video](xxx) | ```Feedforward neural networks``` [[Notebook](tutorials/week2/feedforward_neuralnets.ipynb)]; [[video](https://youtu.be/f7rXC23JWoM)] ```Word2vec``` [[Notebook](tutorials/week2/feedforward_neuralnets.ipynb)]; [[video](https://youtu.be/IZ6AcylOwpY)] ```PyTorch debugging (optional)``` [[Notebook](tutorials/week1/pytorch_debugging.ipynb)]   | ```HW02``` [[L2T2](https://youtu.be/l_UXDv341WY)]; [[L2Q1](https://youtu.be/UMAkUTSOVS8)];[[L2Q2](https://youtu.be/CKpX9Pm2KV4)];[[L2Q3](https://youtu.be/Ds9kKqHfL6E)];[[L2Q4](https://youtu.be/Mlfr3yAfDro)] |
+| 4   |  Recurrent Neural Networks II  |  [GBC-CH10](http://www.deeplearningbook.org/contents/rnn.html)  |  TBA  | ```RNNs GRU LSTM``` [[Notebook](tutorials/week3/rnn_tutorial.ipynb)]; [[video](https://youtu.be)] | NA |
 | 5   |  Gated Recurrent Units & Long-Short Term Memory Networks  |   [ChungEtAl_2014](https://arxiv.org/pdf/1412.3555.pdf) |  TBA  | -------- | -------- |
-| 6   |  Regularization in Deep Learning  |  [GBC-CH07](http://www.deeplearningbook.org/contents/regularization.html)  |  TBA  | -------- | -------- |
+| 6   |  Regularization in Deep Learning  |  [GBC-CH07](http://www.deeplearningbook.org/contents/regularization.html)  |  TBA  | -------- | NA |
 | 7   |  Gradient-Based Optimization   |  [GBC-CH08](http://www.deeplearningbook.org/contents/optimization.html)  |  TBA  | -------- | -------- |
-| 8   | Backpropagation  | [GBC-CH08](http://www.deeplearningbook.org/contents/optimization.html)   |  TBA  | -------- | -------- |
+| 8   | Backpropagation  | [GBC-CH08](http://www.deeplearningbook.org/contents/optimization.html)   |  TBA  | -------- | NA |
 
 # Resources
 1. [Goodfellow, Bengio and Courville. Deep learning Book](http://www.deeplearningbook.org) 
