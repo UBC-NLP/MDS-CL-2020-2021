@@ -1,0 +1,45 @@
+# multi30k.yaml
+
+## TO DO COMPLETE DATA SAVING
+
+# Corpus opts:
+data:
+## TODO COMPLETE CORPUS OPTIONS
+## Add sentencepiece and filter long segments
+
+
+
+#TODO Fill in vocab you create
+src_vocab:
+tgt_vocab:
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+# Note it won't actually make it to 10,000 steps because of early stopping
+save_model: toy-ende/run/model
+save_checkpoint_steps: 500
+train_steps: 10000
+valid_steps: 500
+early_stopping: 2
+
+
+# Checkpoint settings
+keep_checkpoint: 5
+seed: 531
+warmup_steps: 400
+report_every: 100
+
+# Model 
+## TODO Create RNN enc/dec with MLP attention
+## Should have 3 layers in encoder and 2 layers in decoder
+## 20% dropout and 500 hidden units
+
+
+# Optimizer settings
+## TODO Set Adam as Optimizer
+
+
+

@@ -1,0 +1,60 @@
+# toy_en_de.yaml
+
+## Where the samples will be written
+save_data: toy-ende/run/example
+## Where the vocab(s) will be written
+src_vocab: toy-ende/run/example.vocab.src
+tgt_vocab: toy-ende/run/example.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: toy-ende/src-train.txt
+        path_tgt: toy-ende/tgt-train.txt
+    valid:
+        path_src: toy-ende/src-val.txt
+        path_tgt: toy-ende/tgt-val.txt
+
+
+# Vocabulary files that were just created
+src_vocab: toy-ende/run/example.vocab.src
+tgt_vocab: toy-ende/run/example.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+# Note it won't actually make it to 10,000 steps because of early stopping
+save_model: toy-ende/run/model
+save_checkpoint_steps: 500
+train_steps: 10000
+valid_steps: 500
+early_stopping: 2
+
+
+# Checkpoint settings
+keep_checkpoint: 3
+seed: 531
+warmup_steps: 400
+report_every: 100
+
+# Model (note these are actually defaul values, but I've explicitely written them out to show how you can edit them)
+decoder_type: rnn
+encoder_type: rnn 
+enc_layers: 2
+dec_layers: 2
+enc_rnn_size: 500
+dec_rnn_size: 500
+dropout: 0.3
+global_attention : dot
+
+
+# Optimizer settings
+optim: sgd
+learning_rate: 1
+
+
+
