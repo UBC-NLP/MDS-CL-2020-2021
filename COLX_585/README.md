@@ -70,8 +70,8 @@ Note that for all but Teamwork, all students in the same group will receive the 
 # Lecture Details (Tentative)
 | Lecture | Topic   | Readings                 | Lecture |    Notes |
 |------   | ------- |--------------------------| -------- | -------- |
-| 1. (Tues, March 30)  | Course Overview | NA | [[slides](lectures/xxx)]; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](xxx)]; ```pwd:```    |  NA |
-| 2. (Thu, April 1)  | Contextual Word Embeddings | [Semi-supervised sequence tagging with bidirectional language models](https://www.aclweb.org/anthology/P17-1161.pdf), [ELMo](https://www.cs.ubc.ca/~amuham01/LING530/papers/petersELMo2018.pdf) | [[slides](lectures/xxx)]; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](xxx)]; ```pwd:```    |  NA |
+| 1. (Tues, March 30)  | Course Overview | NA | [[slides](lectures/xxx)]; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](https://ubc.zoom.us/rec/share/E7Q4SW4FdIbKWYiNne0geAblrt0lCbW05szPNVwjRt6CHnA_skwmj0OQmLBd8AZL.oqiXPXuyPQdQWwZE)]; ```pwd:```  2kKB@XyZ    |  NA |
+| 2. (Thu, April 1)  | Contextual Word Embeddings | [Semi-supervised sequence tagging with bidirectional language models](https://www.aclweb.org/anthology/P17-1161.pdf), [ELMo](https://www.cs.ubc.ca/~amuham01/LING530/papers/petersELMo2018.pdf) | [[slides](lectures/Lecture-1_2-COLX585_Trends-ELMo-2021.pdf)]; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](xxx)]; ```pwd:```    |  NA |
 | 3. (Tues, April 6)  | ConvNets | [DLB-CH09](https://www.deeplearningbook.org/contents/convnets.html) | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    |  NA |
 | 4. (Thu, April 8)  | RNN Language Models & Project Q & A | NA | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    | NA |
 | 5. (Tues, April 13)  | Self-Supervised Learning (BERT) | [BERT](https://arxiv.org/pdf/1810.04805.pdf); ```extra:``` [Roberta](https://arxiv.org/pdf/1907.11692.pdf), [ALBERT](https://arxiv.org/pdf/1909.11942.pdf), [SpanBERT](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00300), [MASS](https://arxiv.org/pdf/1905.02450.pdf) | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    |  NA |
@@ -91,11 +91,14 @@ To restate: because people may be picking quite different projects, some of thes
 
 | Topic w/ Video Links   | Notebook Link  |
 |----- | --- |
-| [BERT](https://youtu.be/8fPh2wiPPy4) (BERT pre-trained transformer models) | |
-| [BPE](https://youtu.be/sOT9IHN_iwk) (BytePairEncoding) | |
-| CNN ([image](https://youtu.be/32txg97UGI4) and [text](https://youtu.be/yBqfOknzOCk)) | |
-| [Fairseq](https://youtu.be/6G6jFc9uo0c) (Facebook AI Research's Seq2Seq toolkit) | | 
-| More to come! | |
+| [BERT](https://youtu.be/8fPh2wiPPy4) (BERT pre-trained transformer models) | [Notebook](tutorials/BPE-BERT/bert_pytorch.ipynb) |
+| [BPE](https://youtu.be/sOT9IHN_iwk) (BytePairEncoding) | [Notebook](tutorials/BPE-BERT/bpe_tutorial.ipynb) |
+| CNN ([image](https://youtu.be/32txg97UGI4) and [text](https://youtu.be/yBqfOknzOCk)) | [Notebook-1](tutorials/CNN/cnn_text.ipynb) [Notebook-2](tutorials/CNN/mnist_cnn.ipynb) |
+| [Fairseq](https://youtu.be/6G6jFc9uo0c) (Facebook AI Research's Seq2Seq toolkit) | [Folder](tutorials/Fairseq/) |
+| [Overview + brief history of ASR](https://youtu.be/0nLcNY1Py8U) High Level | [Reading](tutorials/ASR/Speech_Overview_MDS_CL.pdf) |
+| [GPT-2](https://youtu.be/nHW0xGSLPXs) (Generation and decoding) | [Notebook](tutorials/HF-NLG-GPT2/natural_language_generation.ipynb)|
+| [Model Interpretability](https://youtu.be/ts23AHUf6cE) | [Notebook](tutorials/Interpretability/model_interpretability.ipynb)  |
+| [Datasets]() | [Notebook](tutorials/HF-Datasets/huggingface_datasets_tutorial.ipynb)|
 
 # Additional Papers & Resources
 
