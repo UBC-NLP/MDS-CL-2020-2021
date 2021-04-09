@@ -70,10 +70,10 @@ Note that for all but Teamwork, all students in the same group will receive the 
 # Lecture Details (Tentative)
 | Lecture | Topic   | Readings                 | Lecture |    Notes |
 |------   | ------- |--------------------------| -------- | -------- |
-| 1. (Tues, March 30)  | Course Overview | NA | [[slides](lectures/xxx)]; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](https://ubc.zoom.us/rec/share/E7Q4SW4FdIbKWYiNne0geAblrt0lCbW05szPNVwjRt6CHnA_skwmj0OQmLBd8AZL.oqiXPXuyPQdQWwZE)]; ```pwd:```  2kKB@XyZ    |  NA |
-| 2. (Thu, April 1)  | Contextual Word Embeddings | [Semi-supervised sequence tagging with bidirectional language models](https://www.aclweb.org/anthology/P17-1161.pdf), [ELMo](https://www.cs.ubc.ca/~amuham01/LING530/papers/petersELMo2018.pdf) | [[slides](lectures/Lecture-1_2-COLX585_Trends-ELMo-2021.pdf)]; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](xxx)]; ```pwd:```    |  NA |
-| 3. (Tues, April 6)  | ConvNets | [DLB-CH09](https://www.deeplearningbook.org/contents/convnets.html) | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    |  NA |
-| 4. (Thu, April 8)  | RNN Language Models & Project Q & A | NA | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    | NA |
+| 1. (Tues, March 30)  | Course Overview | NA | No slides; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](https://ubc.zoom.us/rec/share/E7Q4SW4FdIbKWYiNne0geAblrt0lCbW05szPNVwjRt6CHnA_skwmj0OQmLBd8AZL.oqiXPXuyPQdQWwZE)]; ```pwd:```  2kKB@XyZ    |  NA |
+| 2. (Thu, April 1)  | Contextual Word Embeddings | [Semi-supervised sequence tagging with bidirectional language models](https://www.aclweb.org/anthology/P17-1161.pdf), [ELMo](https://www.cs.ubc.ca/~amuham01/LING530/papers/petersELMo2018.pdf) | [[slides](lectures/Lecture-1_2-COLX585_Trends-ELMo-2021.pdf)]; [Video: ELMo](https://www.youtube.com/watch?v=3qhriESuX9Y&t=2497s); [[Lec_video](https://ubc.zoom.us/rec/share/KsGnf7hQVNpzAD7ByfpnZY-6vft8JSgYRJFue1gN-srYWYSEwxbNmHYEBkgYQplT.fPOk2ZLPcD5rRuc5)]; ```pwd:```  FH25bC=%   |  NA |
+| 3. (Tues, April 6)  | ConvNets | [DLB-CH09](https://www.deeplearningbook.org/contents/convnets.html) | [[slides](lectures/Lecture-3-COLX585_Trends-CNN-2021.pdf)]; [[video](https://www.youtube.com/watch?v=CwNIFfi67rE&list=PLSKO8Gk8iOOcxPOW314siaGn29VD10k-v&index=4)]; [[Lec_video](https://ubc.zoom.us/rec/share/TORNbUgwgS3yXsK0S7NG_gTEYp2RjWktzc3-UOpjLEXgQuM_aPjGrqiyX9LwUzj9.DHKVNNulqiMXK-sx)]; ```pwd:``` rLe^nK2u   |  NA |
+| 4. (Thu, April 8)  | RNN Language Models & Project Q & A | NA | [[slides](lectures/Lecture-4-COLX585_Trends-RNN-LM-2021.pdf)]; [[Lec_video](https://ubc.zoom.us/rec/share/CpoLLtJs0UFC0r-2HrllJ_89QbGboZv9CgGZ8adG1dW39kTx8JzpjMUkOo-_3Je_.FFdwL-iqwM1s8hfd)]; ```pwd:``` M7O?QP52   | NA |
 | 5. (Tues, April 13)  | Self-Supervised Learning (BERT) | [BERT](https://arxiv.org/pdf/1810.04805.pdf); ```extra:``` [Roberta](https://arxiv.org/pdf/1907.11692.pdf), [ALBERT](https://arxiv.org/pdf/1909.11942.pdf), [SpanBERT](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00300), [MASS](https://arxiv.org/pdf/1905.02450.pdf) | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    |  NA |
 | 6. (Thu, April 15)  |  Generative Pre-Training (GPT) | [Improving Language Understanding by Generative Pre-Training(GPT-1)](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf), [Language Models are Unsupervised Multitask Learners(GPT-2)](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    |  NA |
 | 7. (Tues, April 20)  | Paraphrase Models & Style Transfer | NA | [[slides](lectures/xxx)]; [[video](xxx)]; ```pwd:```    |  NA |
@@ -99,6 +99,9 @@ To restate: because people may be picking quite different projects, some of thes
 | [GPT-2](https://youtu.be/nHW0xGSLPXs) (Generation and decoding) | [Notebook](tutorials/HF-NLG-GPT2/natural_language_generation.ipynb)|
 | [Model Interpretability](https://youtu.be/ts23AHUf6cE) | [Notebook](tutorials/Interpretability/model_interpretability.ipynb)  |
 | [Datasets]() | [Notebook](tutorials/HF-Datasets/huggingface_datasets_tutorial.ipynb)|
+| [Adapter Module]() (RoBERTa with Adapter Module) | [Notebook](tutorials/Adapter_Module/RoBERTa_Adapter.ipynb) |
+| [T5]() (Text to text transfer transformer) | [Notebook](tutorials/HF-T5/text_to_text_transfer_transformer.ipynb) |
+| [DANN]() (Domain Adversarial Neural Network) | [Notebook](tutorials/DANN/domain_adversarial_neural_network.ipynb) |
 
 # Additional Papers & Resources
 
